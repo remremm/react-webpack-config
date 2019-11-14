@@ -1,6 +1,6 @@
 const path = require('path');
 
-const entryPoint = path.resolve(__dirname, 'client', 'src', 'index.js') // add own path
+const entryPoint = path.resolve(__dirname, 'client', 'src', 'index.jsx') // add own path
 const outputPoint = path.resolve(__dirname, 'client', 'dist') // add own path
 
 module.exports = {
